@@ -1,0 +1,133 @@
+body {
+    font-family: "Lato", "Raleway", sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+}
+
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+header {
+    background-color: #17abb3;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  header h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    font-weight: normal;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .container-infos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+  
+img {
+    width: 200px;
+    height: 200px;
+    border: #ffffff 7px solid;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.container2 {
+  display: flex;
+  height: 100%;
+}
+
+.sidebaer {
+  flex: 4;
+  padding: 20px;
+}
+
+aside{
+  background-color: #f3f3f3f6;
+}
+
+.content {
+  flex: 6;
+  padding: 20px;
+}
+
+h3, .turquoise {
+  color: #17abb3;
+}
+
+.liste-turquoise {
+  list-style: none;
+}
+.liste-turquoise li::before {
+  color: #17abb3;
+  content: "• ";
+}
+
+.liste-turquoise2 {
+  list-style: none;
+}
+
+.liste-turquoise2 li::before {
+  color: #17abb3;
+  content: "◼ ";
+}
+
+.ligne-haut {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 1,8em;
+}
+
+.date {
+  font-size: 0.8em;
+  color: #17abb3;
+}
+
+.alaligne {
+  display: block;
+}
+
+.bloc-formation, .bloc-stage, .bloc-experience{
+  padding: 10px;
+}
+
+footer {
+ height: 100px;
+ background-color: #17abb3;
+ margin-top: 100px;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a {
+  color: white;
+  font-size: 2em;
+  margin: 0 10px;
+}
